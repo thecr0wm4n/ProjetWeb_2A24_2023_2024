@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head><link rel="icon" type="image/x-icon" href="icon.ico"/><title>Inscription</title></head>
+    <header>
+        <meta charset="utf-8" />
+        
+        <center>
+        <a href="accueil.html"> Home</a>   <a href=""> Projets et taches</a>   <a href=""> Liste des employés</a>   <a href=""> Inscription</a>
+        </center>
+        <style>
+            body {
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+            form {
+                max-width: 370px;
+                margin: 0 auto;
+            }
+            label {
+                display: inline-block;
+                width: 100px;
+                font-weight: bold;
+            }
+            input, select {
+                width: calc(100% - 110px); 
+                padding: 5px;
+                margin-bottom: 10px;
+                box-sizing: border-box; 
+            }
+            button[type="submit"] {
+                width: 100%;
+                padding: 10px;
+                background-color: #456ba0;
+                color: white;
+                border: none;
+                cursor: pointer;
+            }
+            button[type="submit"]:hover {
+                background-color: #456ba0;
+            }
+        </style>
+    </header>
+    <body>
+        <section>
+<div>
+        <a>_________________________________________________________________________________________________________________________________________________________________________________________</a>
+        <img src="img.jpg" alt="image principale" height="600" width="1600w">
+        <center><b ><font size="+10" color="#456ba0">Inscription au site</font></b></center>
+        
+</div>
+<br><br>
+<div>
+    <form id="inscription">
+        <label for="nom">Nom : </label>
+        <input type="text" id="nom" name="nom" required minlength="2" pattern="[a-zA-Z]+" title="Le champ 'Nom' est obligatoire. Seules les lettres alphabétiques sont autorisées. Le nom doit contenir au moins 2 caractères.">
+        <br><br>
+        
+        <label for="prenom">Prénom : </label>
+        <input type="text" id="prenom" name="prenom" required minlength="2" pattern="[a-zA-Z]+" title="Le champ 'Prénom' est obligatoire. Seules les lettres alphabétiques sont autorisées. Le prénom doit contenir au moins 2 caractères.">
+        <br><br>
+        
+        <label for="email">Email : </label>
+        <input type="text" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" title="Le champ 'Email' est obligatoire. Le format de l'email doit être valide (exemple : x@x.x).">
+        <br><br>
+        
+        <label for="telephone">Téléphone : </label>
+        <input type="tel" id="telephone" name="telephone" required pattern="[0-9]{8}" title="Le champ 'Téléphone' est obligatoire. Le numéro de téléphone doit contenir exactement 8 chiffres.">
+        <br><br>
+        
+        <label for="date_naissance">Date de naissance : </label>
+        <input type="date" id="date_naissance" name="date_naissance" required title="Le champ 'Date de naissance' est obligatoire.">
+        <br><br>
+        
+        <label for="mot_de_passe">Mot de passe : </label>
+        <input type="password" id="mot_de_passe" name="mot_de_passe" required minlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Le champ 'Mot de passe' est obligatoire. Le mot de passe doit contenir au moins 8 caractères, incluant au moins un chiffre, une lettre minuscule et une lettre majuscule.">
+        <br><br>
+        
+        <button type="submit">s'inscrire</button>
+    </form>
+</div>
+    </section>
+    </body>
+    <br>
+    <a>_____________________________________________________________________________________________________________________________________________________________________________________________</p>
+        <footer>
+    <a>Vous pouvez nous contacter par email :</a><a href="">contact@esprit.tn</a>
+    <br>
+    <a>adresse : Ghazela , Tunis</a>
+        </footer>
+    </html>
