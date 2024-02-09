@@ -1,5 +1,6 @@
+// Abassi Fedi 2A24
 
-///Exercice 1
+/// Exercice 1
 
 function calcul(x, y) {
     var pi = 3.14;
@@ -10,7 +11,11 @@ function calcul(x, y) {
     }
 }
 
-///Exercice 2
+//les erreurs que j'ai corrigé sont au niveau de la 1ére ligne de code ou j'ai remplacé def calcul = function(x,y) par la syntaxe correcte , 
+//de plus la structure conditionelle est mal définie avec ":" et je les ai remplacé par les expressions convenables , il faut noter bien que ces erreurs de syntaxe et d'optimisation
+//sont a l'origine des erreurs d'exécution que j'ai rencontré lors de ma premiére compilation du code.
+
+/// Exercice 2
 
 function Nombres_parfait(n) {
     for (let num = 2; num < n; num++) {
@@ -62,7 +67,7 @@ console.log("sous-tableau 3",T3);
 
 }
 
-///Exercice 5
+/// Exercice 5
 
 function entierAleatoire(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -88,4 +93,4 @@ function entierAleatoire(min, max) {
 
     /// Exercice 6
 
-    
+    // voir fichiers ex6.js et ex6.html 

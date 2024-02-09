@@ -1,3 +1,5 @@
+// Abassi Fedi 2A24
+
 function modif_paragraphe(){
 
     var p1=document.getElementById("para");
@@ -9,6 +11,8 @@ function modif_paragraphe(){
 
 function centrage_h1(){
 var h1=document.getElementsByTagName("h1");
+if(h1.length>0){
 var h2 = h1[0];
 h2.setAttribute("align","center");
+}
 }
