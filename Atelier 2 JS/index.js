@@ -80,11 +80,11 @@ function entierAleatoire(min, max) {
     while(essais > 0 ){
         let choix = parseInt(prompt("Donner un nombre entre 0 et 10"));
         if(choix === x){
-            alert("Bravo my nigger !");
+            alert("Bravo !");
             break;
         } else{ essais--; 
             if(essais > 0){
-            alert("Incorrect my nigga ! il vous reste "+essais+" essais");}
+            alert("Incorrect ! il vous reste "+essais+" essais");}
            else{ alert("Vous avez epuisé tous vos essais ! le nombre était" + x);}
         
     }
