@@ -141,11 +141,11 @@ function verifierEmail() {
 
     
     if (/@esprit\.tn$/.test(email)) {
-        email2.textContent = "Email correct!";
+        email2.textContent = "Correct";
         email2.classList.remove("error-message");
         email2.classList.add("success-message");
     } else {
-        email2.textContent = "L'email doit être de format *@esprit.tn";
+        email2.textContent = "Veuillez entrer une adresse e-mail valide (L'email doit être de format *@esprit.tn)";
         email2.classList.remove("success-message");
         email2.classList.add("error-message");
     }
