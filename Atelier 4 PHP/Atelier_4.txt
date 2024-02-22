@@ -1,0 +1,9 @@
+Abassi Fedi 2A24
+
+Exercice 3 :
+
+4/-On remarque qu'au niveau de la barre URL , il ya affichage des champs saisies au niveau du formulaire ainsi que les valeurs de chaque champ.
+5/-Si on enléve l'attribut name , une erreur s'affiche et il n' ya pas affichage de la valeur saisie au niveau du tableau nd'affivhage donc on peut conclure que la methode GET utilise l'attribut nam pour s'exécuter
+6/-Rien ne s'affiche au niveau du tableau et des erreurs d'affichent car on a besoin tout d'abord de faire la saisie de ces champs au niveau du fichier html
+8/- pour corriger ces erreurs, il suffit d'ajouter d'ajouter la fonction isset au niveau de la récupération des valeurs au niveau du fichier .php
+9/-puisque on a enlevé la méthode method="get" qui permet la lecture des valeurs saisies au niveau du formulaire alors il n'aura pas récupération de ces valeurs et le tableau s'affiche vide.
