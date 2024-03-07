@@ -1,4 +1,4 @@
-<?php
+<?php 
 /*Abassi Fedi 2A24 */
 include "C:/xampp/htdocs/Atelier 5/Controller/EmployeC.php"; 
 
@@ -20,5 +20,6 @@ $employe2 = new EmployeC();
 
 echo "<h2>Informations de l'employé 2 avec la fonction show()</h2>";
 $employe2->show($employe1);
+
 ?>
 

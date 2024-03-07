@@ -58,16 +58,12 @@ public function Afficher(){
 
 }
 
-echo "<h2>Informations de l'employé avec Afficher()</h2>";
+/*echo "<h2>Informations de l'employé avec Afficher()</h2>";
 
 $personne1=new Employe("Achraf","ben mouelli","123456","2692","achraf.benmouelli@esprit.tn","20-12-2003");
-$personne1->Afficher();
+$personne1->Afficher();*/
 
-/*echo "<h2>Informations de l'employé avec show()</h2>";
 
-$personne2 = new Employe("hello","ben foulen","1234","2222","fedi.abassi@esprit.tn","25-10-2000");
-$personne2C = new EmployeC();
-$personne2C->show($personne2);*/
 
 
 ?>
